@@ -23,11 +23,12 @@
   <header id="header" style="background:#1e231b;" data-hook >
     <div class="container">
       <div class="row">
+<%= render :partial => 'spree/shared/main_nav_bar' if store_menu? %>
         <figure id="logo" class="col-md-4 col-sm-1" data-hook>
           <%= logo %>
         </figure>
         <%= render :partial => 'spree/shared/nav_bar' %>
-	<%= render :partial => 'spree/shared/main_nav_bar' if store_menu? %>
+	
       </div>
     </div>
   </header>
