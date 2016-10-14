@@ -26,3 +26,11 @@ Spree::Image.class_eval do
   }
 end
 
+Spree.config do |config|
+  # Example:
+  # Uncomment to override the default site name.
+  # config.site_name = "Spree Demo Site"
+  config.admin_interface_logo = 'logo/eattreat.png'
+  config.logo = 'logo/eattreat.png'
+end
+
