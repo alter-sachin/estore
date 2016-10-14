@@ -17,14 +17,3 @@ end
 
 Spree.user_class = "Spree::LegacyUser"
 
-Spree::Image.attachment_definitions[:attachment][:styles] = {
-
-	mini: "100x100",
-	small:	"300x350".
-	product : "350x550",
-	large : "600x700"
-
-
-
-
-}
