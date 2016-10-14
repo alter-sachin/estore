@@ -19,10 +19,10 @@ Spree.user_class = "Spree::LegacyUser"
 
 Spree::Image.class_eval do
   attachment_definitions[:attachment][:styles] = {
-    :mini => '-gravity center -extent 96x96>', # thumbs under image
-    :small => '-gravity center -extent350x220>', # images on category view
-    :product => '-gravity center -extent 360x510>', # full product image
-    :large => '-gravity center -extent 1200x1200>' # light box image
+    :mini => '96x96>', # thumbs under image
+    :small => '200x200>', # images on category view
+    :product => '360x510>', # full product image
+    :large => '1200x1200>' # light box image
   }
 end
 
