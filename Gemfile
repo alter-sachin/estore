@@ -33,6 +33,7 @@ gem 'spree_gateway', '~> 3.1.0'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
+gem 'spree_amazon_like_dropdown', github: 'alter-sachin/spree_amazon_like_dropdown'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
